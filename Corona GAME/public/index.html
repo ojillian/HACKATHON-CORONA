@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Corona Game</title>
+        <style>
+            canvas {
+                border:3px solid #5ECCDD;
+                background-color: #E8FCFF;
+            }
+        </style>
+    </head>
+    <body>
+		<h1 style="font-family: Trebuchet Ms; color: #5ECCDD">Corona Game</h1>
+        <canvas id="canvas"></canvas>
+    <p id="timer"></p>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+        <script type="text/javascript" src="/public/bromybrain.js"></script>
+        <script>
+          var time=120;
+          var x = setInterval(function() {
+            document.getElementById("timer").innerHTML=time;
+            if(time<=0){
+              clearInterval(x);
+              document.getElementById("timer").innerHTML='DONE';
+              myFunction();
+            }
+            time--;
+          },1000);
+        </script>
+    </body>
+</html>
