@@ -1,0 +1,53 @@
+
+#bigboi{
+    /* background-color: #d9f8db; */
+    width: 400px;
+    height: 400px;
+    /* overflow-y: scroll; */
+}
+#smollboi{
+    height: 400px;
+    width: 400px;
+    overflow-y: scroll;
+    resize: none;
+}
+#button{
+    cursor: pointer;
+    background: #d9f8db;
+    font-family: Trebuchet Ms;
+    font-size: 20pt;
+    color: #2bc535;
+    border-radius: 20px;
+    border-color: #2bc535;
+    height: 40px;
+    width: 400px;
+    margin: auto;
+    transition: 0.3s;
+}
+#button:hover {
+    background: #9ff7ae;
+}
+#textArea{
+    outline: none;
+    background: #d9f8db;
+    font-family: Trebuchet MS;
+    color: #2bc535;
+    font-size: 15pt;
+    height: 400px;
+    width: 400px;
+    border-color: rgb(97, 228, 137);
+    border-width: thick;
+    overflow-y: scroll;
+    resize: none;
+    margin-left: 10px;
+}
+#text{
+    overflow-y: scroll;
+    font-size: 15pt;
+    font-family: Trebuchet MS;
+    outline: #d9f8db;
+    margin: auto;
+    width: 400px;
+    border-radius: 5px;
+    border-color:#2bc535;
+}

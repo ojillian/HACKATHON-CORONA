@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Room</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js">
+    </script>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <h1 style="font-family: Trebuchet Ms; color: #5edb66">The Green Room</h1>
+</head>
+<body>
+    <div id="bigboi">
+        <div id="smollboi">
+            <div readonly id="textArea"></div>
+        </div>
+        <input id="text" type="text"  onkeypress="if(event.key == 'Enter') postMessage()" placeholder="type message">
+        <button id="button">Send</button>
+    </div>
+    <script src="/chat.js"></script>
+</body>
+
+</html>
