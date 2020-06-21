@@ -1,0 +1,36 @@
+
+.game {
+    cursor: pointer;
+    background: #d9f8db;
+    font-family: Trebuchet Ms;
+    font-size: 20pt;
+    color: #84e7f8;
+    border-radius: 20px;
+    border-color: #2ccacf;
+    height: 40px;
+    width: 400px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.chat{
+    cursor: pointer;
+    background: #d9f8db;
+    font-family: Trebuchet Ms;
+    font-size: 20pt;
+    color: #2bc535;
+    border-radius: 20px;
+    border-color: #2bc535;
+    height: 40px;
+    width: 400px;
+    margin: auto;
+    transition: 0.3s;
+}
+
+.game:hover{
+    background-color: #3cd6db;
+}
+
+.chat:hover{
+    background-color: #51d35a;
+}
